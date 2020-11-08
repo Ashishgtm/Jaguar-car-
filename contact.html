@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title></title>
+    <style>
+        /* header start  */
+        .header {
+            position: relative;
+            height: 85;
+            padding: 10px 10px 10px 100px;
+        }
+
+        .header img {
+            height: 80px;
+        }
+
+        .menu {
+            position: absolute;
+            bottom: 40%;
+            left: 30%
+        }
+
+        .menu-items {
+            padding: 7px;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            color: #333;
+            line-height: 7px;
+            font-size: 15px
+        }
+
+        .menu-items:hover {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .search {
+            position: absolute;
+            width: 250px;
+            padding: 5px 10px 5px 10px;
+            top: 30%;
+            left: 80%;
+        }
+
+        /* header end */
+        table input{
+            padding: 5px 10px 5px 10px;
+        }
+        td{
+            padding: 0 140px 30px 0;
+        }
+        .contents {
+            margin: 50px;
+        }
+
+        small {
+            font-size: 15px;
+        }
+        button{
+            margin-left: 365px;
+            border:0px;
+            font-size: 20px;
+            background: dodgerblue;
+            padding: 5px 10px 5px 10px;
+            color: white;
+        }
+        button:hover
+        {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png">
+        <span class="menu">
+            <a href="index.html" class="menu-items">Home</a>
+            <a href="vechiles.html" class="menu-items">Vechiles</a>
+            <a href="about.html" class="menu-items">About Us</a>
+            <a href="contact.html" class="menu-items">Query</a>
+        </span>
+        <input type="text" class="search" placeholder="Search">
+    </div>
+    <div class="contents">
+        <div class="title" style="padding-right: 1105px;padding-bottom: 0;">
+            <h2 style="padding:10px;background: black;color:whitesmoke;">Queries</h2>
+        </div>
+        <p>
+            <form>
+                <table>
+                        <tr>
+                            <td>
+                                Name:
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email:
+                            </td>
+                            <td>
+                                <input type="email" placeholder="example@company.com">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Feedbacks:
+                            </td>
+                            <td>
+                                <textarea>
+
+                                </textarea>
+                            </td>
+                            </tr>
+                </table>
+                <button>Submit</button>
+            </form>
+        </p>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
+</html>
